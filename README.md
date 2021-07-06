@@ -2,13 +2,15 @@
 VueProject
 
 ```
+该项目使用的技术
+vue + vantUI + axios
+
 启动项目
 1.下载依赖
   npm install
 2.运行
 npm run serve
 
-```
 配置rem, px自动转换rem
 
 安装 postcss-pxtorem、lib-flexible插件
