@@ -1,0 +1,36 @@
+.address-list{
+  padding-bottom: 50px;
+  /deep/ .van-nav-bar .van-icon, /deep/ .van-nav-bar__text{
+    color: #0C34BA;
+  }
+
+  /deep/ .van-address-list{
+    padding: 0;
+  }
+
+  /deep/ .van-address-item{
+    padding: 10px;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 0;
+    margin-bottom: 0;
+    &:last-child{
+      border-bottom: none;
+    }
+  }
+
+  /deep/ .van-tag--danger{
+    background-color: #0C34BA;
+  }
+
+  /deep/ .van-button--danger{
+    background-color: #0C34BA;
+    border-color: #0C34BA;
+  }
+
+  /deep/ .van-address-item__address{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #666;
+  }
+}
